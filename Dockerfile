@@ -17,6 +17,7 @@ RUN apk add --update --no-cache \
     curl \
     php7 \
     php7-mysqlnd \
+    php7-pdo \
     php7-xdebug \
     php7-fpm \
     php7-zip \
@@ -24,10 +25,17 @@ RUN apk add --update --no-cache \
     php7-imagick \
     php7-xml \
     php7-json \
+    php7-dom \
+    git \
     php7-phar \
     php7-bcmath \
     php7-curl \
-    nodejs
+    php7-session \
+    php7-tokenizer \
+    php7-xmlwriter \
+    php7-fileinfo \
+    nodejs \
+    npm
 
 COPY bin/ /usr/local/bin/
 COPY etc/ /etc/
