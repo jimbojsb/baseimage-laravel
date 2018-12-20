@@ -35,8 +35,10 @@ RUN apk add --update --no-cache \
     php7-tokenizer \
     php7-xmlwriter \
     php7-fileinfo \
+    php7-opcache \
     nodejs \
-    npm
+    npm \
+    vim
 
 COPY bin/ /usr/local/bin/
 COPY etc/ /etc/
