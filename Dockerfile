@@ -36,6 +36,7 @@ RUN apk add --update --no-cache \
     php7-xmlwriter \
     php7-fileinfo \
     php7-opcache \
+    php7-simplexml \
     nodejs \
     npm \
     vim
