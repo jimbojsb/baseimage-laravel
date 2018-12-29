@@ -39,7 +39,8 @@ RUN apk add --update --no-cache \
     php7-simplexml \
     nodejs \
     npm \
-    vim
+    vim \
+    mysql-client
 
 COPY bin/ /usr/local/bin/
 COPY etc/ /etc/
