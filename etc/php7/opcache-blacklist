@@ -3,4 +3,4 @@
 /app/config
 /app/resources
 /app/routes
-/app/storage
+/app/nova-components

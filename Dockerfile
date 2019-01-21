@@ -50,7 +50,6 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 WORKDIR /app
 
-ONBUILD COPY ./composer-auth.json /root/.composer/auth.json
 ONBUILD COPY composer* package* /app/
 ONBUILD RUN composer install --no-scripts --no-plugins --no-autoloader --no-dev && composer clear-cache
 ONBUILD RUN npm install
