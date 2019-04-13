@@ -19,6 +19,7 @@ RUN apk add --update --no-cache \
     php7-mysqlnd \
     php7-pdo \
     php7-pdo_mysql \
+    php7-pdo_sqlite \
     php7-xdebug \
     php7-fpm \
     php7-zip \
