@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.10
 
 ENV PATH $PATH:/app/vendor/bin:/app:/app/node_modules/.bin
 ENV COMPOSER_ALLOW_SUPERUSER 1
